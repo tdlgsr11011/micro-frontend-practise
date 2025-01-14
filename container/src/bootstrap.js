@@ -1,4 +1,4 @@
-import { mount } from "products/ProductsIndex";
+import { mountProducts } from "products/ProductsIndex";
 import { mountCart } from "cart/CartShow";
 
 console.log("container");
