@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "development") {
   const el = document.querySelector("#dev-products");
   if (el) {
     // assuming container doesn't have element with id dev-products
-    mount(el);
+    mountProducts(el);
   }
 }
 
